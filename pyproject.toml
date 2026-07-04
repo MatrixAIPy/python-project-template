@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.pylint.format]
+max-line-length = 88
+
+[tool.pylint.messages_control]
+disable = [
+    "missing-docstring",
+    "C0114",
+    "C0115",
+    "C0116"
+]
